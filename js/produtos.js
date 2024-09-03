@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         description: "Descrição breve do Produto 1.",
         price: "R$ 100,00",
         images: [
-          "img/LogoVerde.png",
+          "img/Logoverde.png",
           "img/Logobranco.png",
           "img/Logoverde.png"
         ]
