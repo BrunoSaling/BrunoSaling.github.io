@@ -1,0 +1,44 @@
+  .card-img-top{
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+  }
+
+  .servico{
+    color:#426B1F;
+  }
+
+  .custom-style {
+    background-color: #f8f9fa; 
+    border: 2px solid #000;
+    border-radius: 5px;
+  }
+
+  .card-title{
+    font-size: 175%;
+    font-weight: 700;
+  }
+
+  .card-text{
+    font-weight: 700;
+    color: #426B1F;
+  }
+
+  .botao_agendar{
+    background-color: #426B1F;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #f8f9fa;
+    font-weight: 700;
+    margin-left: 35%;
+  }
+
+  .botao{
+    margin-left: 40%;
+  }
+
+  .checkbox-custom:checked {
+    background-color: #426B1F; 
+    border-color: #426B1F;
+  }
+

@@ -1,0 +1,39 @@
+.borda {
+    border-color: #426B1F;
+    border-width: 2px;  
+    border-style: solid;
+    padding: 3vh; 
+}
+
+.table.tabela{
+    border: 2px;
+    border-color: #426B1F;
+}
+
+p{
+    color:red;
+    font-weight: 500;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2vh;
+}
+
+@media (max-width: 768px) {
+    .borda {
+        padding: 10px; /* Menos padding em telas menores */
+    }
+
+    table {
+        font-size: 14px; /* Ajusta o tamanho da fonte da tabela em telas menores */
+    }
+}
+
+@media (max-width: 576px) {
+    table {
+        font-size: 12px; /* Ajusta o tamanho da fonte da tabela em telas muito pequenas */
+    }
+
+    .container {
+        padding: 0 15px; /* Menos padding horizontal em telas muito pequenas */
+    }
+}

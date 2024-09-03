@@ -1,0 +1,135 @@
+/* Estilos Gerais */
+body {
+  background-color: #426B1F; /* Fundo verde para a tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 10px;
+  flex-direction: column; /* Adiciona flex-direction para organizar elementos verticalmente */
+}
+
+.paginas {
+  background-color: #ffffff; /* Fundo verde para a tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  flex-direction: column; /* Adiciona flex-direction para organizar elementos verticalmente */
+}
+
+.main-box {
+  background-color: #ffffff;
+  border: 2px solid #000000; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; 
+  width: 100%; 
+}
+
+.image {
+  width: 100%; 
+  height: auto; 
+}
+
+.container.d-flex {
+  align-items: flex-start;
+}
+
+/* BOTAO DE LOGIN */
+
+  .botaologin {
+    background-color: rgb(255, 255, 255); 
+    color: #426B1F;         
+    border-radius: 5px;
+    border-color: #426B1F;  
+    padding: 6px 10px;    
+    cursor: pointer;
+    margin-bottom: 20px;      
+    width: 30%; 
+    font-size: 70%;
+  }
+
+  .botaologin {
+    background-color: #426B1F; 
+    color:#FFF;
+    border-radius: 10px;
+    border-color: #426B1F; 
+  }
+
+.btn-primary{
+  background-color: #ffffff;
+  color: #426B1F;
+  font-weight: bold;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #426B1F;
+  text-align: center;
+  margin-left: 25%;
+  width: 50%;  
+}
+
+.btn-primary:hover{
+  background-color: #426B1F;
+  color: #ffffff;
+  font-weight: bold;
+  border-color: #ffffff;
+}
+
+.form-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-content {
+  display: none; /* Esconde os formulários inicialmente */
+}
+
+.form-content.active {
+  display: block; /* Mostra o formulário ativo */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+.nav-bar {
+  border-bottom: 1px solid #426B1F;
+  background-color: #ffffff;
+}
+
+/* Estilo para os links de navegação */
+.nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  background-color: #426B1F; 
+  border-radius: 100%;
+  padding-top:5px ;
+  padding-bottom:5px ;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #426B1F; 
+}
+
+.logo {
+  max-width: 20%; 
+  height: auto; 
+}
+
+.rodape{
+  background-color: #426B1F;
+  font-size: 1vw;
+  width: 100%;
+  
+}

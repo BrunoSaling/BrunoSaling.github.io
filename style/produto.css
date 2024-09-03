@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  max-height: 200px; /* Ajusta a altura máxima da imagem do card */
+  object-fit: cover; /* Garante que a imagem se ajuste corretamente ao tamanho do card */
+}
+
+.card-body {
+  text-align: center; /* Centraliza o texto no corpo do card */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Tamanho da fonte do título */
+  margin-bottom: 0.5rem; /* Espaço abaixo do título */
+}
+
+.card-text {
+  font-size: 0.9rem; /* Tamanho da fonte da descrição */
+  margin-bottom: 1rem; /* Espaço abaixo da descrição */
+}
+
+.card-price {
+  font-size: 1.1rem; /* Tamanho da fonte do preço */
+  font-weight: bold; /* Negrito para destacar o preço */
+  color: #426B1F; /* Cor verde para o preço */
+}
+
+.carousel-inner img {
+  max-height: 300px; /* Ajusta a altura máxima das imagens do carrossel */
+  object-fit: cover; /* Garante que as imagens se ajustem corretamente */
+}
